@@ -11,4 +11,5 @@ Pod::Spec.new do |spec|
   spec.source					= { :git => "https://github.com/tegdata/XGPush.git", :tag => spec.version }
   spec.source_files				= "XGPush/**/*.h"
   spec.vendored_libraries		= "XGPush/**/*.a"
+  spec.static_framework = true
 end
